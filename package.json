@@ -1,0 +1,40 @@
+{
+  "name": "angular2-jspm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avington/angular2-jspm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avington/angular2-jspm/issues"
+  },
+  "homepage": "https://github.com/avington/angular2-jspm#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.46",
+    "systemjs": "^0.19.5"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.14",
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "src",
+      "packages": "src/lib"
+    },
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.46"
+    },
+    "devDependencies": {}
+  }
+}
